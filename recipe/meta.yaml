@@ -10,7 +10,7 @@ source:
   sha256: 8d4479532acbd4be2b90858274a0810dcaa3146e192a785f6a4b3f8f3da6ea85
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -29,7 +29,7 @@ requirements:
     - pip
   run:
     - python
-    - numpy <2
+    - numpy
 
 test:
   imports:
