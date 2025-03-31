@@ -1,13 +1,13 @@
 {% set name = "color-operations" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 9b5ff7409d189b8254a3524fc78202e2db4021be973592875d61722abe027ec6
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: f1bff5cff5992ec7d240f1979320a981f2e9f77d983e9298291e02f3ffaac9bf
 
 build:
   number: 0
